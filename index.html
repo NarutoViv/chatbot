@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatbot</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .chat-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    <!-- Embed Code for Dante AI Chatbot -->
-    <script>window.danteEmbed = "https://dante-ai.com/embed/?kb_id=525f7a81-0f84-45de-b81d-ab7615b7add4&token=4a8de9e8-4b4b-41d2-ad4b-143effbb3c4f&modeltype=gpt-4-omnimodel-mini&mode=false&logo=ZmFsc2U%3D&bubble=true&bubbleopen=false"</script>
-    <script src="https://dante-ai.com//bubble-embed.js"></script>
+    <div class="chat-container">
+        <!-- Embed Code for Dante AI Chatbot -->
+        <script>
+            window.danteEmbed = "https://dante-ai.com/embed/?kb_id=525f7a81-0f84-45de-b81d-ab7615b7add4&token=4a8de9e8-4b4b-41d2-ad4b-143effbb3c4f&modeltype=gpt-4-omnimodel-mini&mode=false&logo=ZmFsc2U%3D&bubble=true&bubbleopen=false";
+        </script>
+        <script src="https://dante-ai.com//bubble-embed.js"></script>
+    </div>
 </body>
 </html>
+
