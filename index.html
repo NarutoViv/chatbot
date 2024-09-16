@@ -19,17 +19,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            position: relative;
-        }
-        /* Ensure that the bubble is hidden */
-        .dante-ai-chatbot-bubble {
-            display: none !important;
-        }
-        /* Adjust iframe for full screen to make sure the send button is visible */
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
         }
     </style>
 </head>
@@ -37,7 +26,7 @@
     <div class="chat-container">
         <!-- Embed Code for Dante AI Chatbot -->
         <script>
-            window.danteEmbed = "https://dante-ai.com/embed/?kb_id=525f7a81-0f84-45de-b81d-ab7615b7add4&token=4a8de9e8-4b4b-41d2-ad4b-143effbb3c4f&modeltype=gpt-4-omnimodel-mini&mode=true&logo=ZmFsc2U%3D&bubble=false";
+            window.danteEmbed = "https://dante-ai.com/embed/?kb_id=525f7a81-0f84-45de-b81d-ab7615b7add4&token=4a8de9e8-4b4b-41d2-ad4b-143effbb3c4f&modeltype=gpt-4-omnimodel-mini&mode=true&logo=ZmFsc2U%3D&bubble=false&bubbleopen=true";
         </script>
         <script src="https://dante-ai.com//bubble-embed.js"></script>
     </div>
